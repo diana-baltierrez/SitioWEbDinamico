@@ -21,7 +21,6 @@ app.get('/', (req,res)=>{
         titulo : "Hola HBS"
     });
 });
-
 app.get('/informe', (req,res)=>{
     res.render('informe',{
         nombre : 'Raúl Toledo',
